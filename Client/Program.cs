@@ -6,11 +6,13 @@ using Domain;
 
 namespace Client
 {
+    
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("-->  KLIJENTSKA APLIKACIJA  <--");
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("Izaberite protokol:");
             Console.WriteLine("1. TCP");
             Console.WriteLine("2. UDP");
@@ -34,7 +36,7 @@ namespace Client
 
         static string IzaberiAlgoritam(out string algoritam, out string kljuc)
         {
-            Console.WriteLine("\nIzaberite algoritam šifrovanja:");
+            Console.WriteLine("\nIzaberite algoritam šifrovanja: ");
             Console.WriteLine("1. Homofonsko");
             Console.WriteLine("2. Vizner");
             Console.WriteLine("3. Transpozicija matrica");
