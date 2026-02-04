@@ -12,6 +12,7 @@ namespace Server
         static void Main(string[] args)
         {
             Console.WriteLine("-->  SERVERSKA APLIKACIJA  <--");
+            Console.WriteLine("-------------------------------");
             Console.WriteLine("Izaberite protokol:");
             Console.WriteLine("1. TCP");
             Console.WriteLine("2. UDP");
@@ -133,6 +134,8 @@ namespace Server
             }
         }
 
+        
+
         static void PokreniUDPServer()
         {
             try
@@ -225,6 +228,7 @@ namespace Server
                 Console.WriteLine($"[SERVER] Greška pri pokretanju UDP servera: {ex.Message}");
             }
         }
+        
 
         static string DesifrujPoruku(string sifrovana, NacinKomunikacije nacinKom)
         {
@@ -278,6 +282,7 @@ namespace Server
                         transp.Poruka = poruka;
                         return transp.Enkripcija();
                     }
+                    
                 default:
                     return poruka;
             }
