@@ -12,7 +12,7 @@ namespace Server
         static void Main(string[] args)
         {
             Console.WriteLine("-->  SERVERSKA APLIKACIJA  <--");
-            Console.WriteLine("-------------------------------");
+            Console.WriteLine("------------------------------");
             Console.WriteLine("Izaberite protokol:");
             Console.WriteLine("1. TCP");
             Console.WriteLine("2. UDP");
@@ -167,7 +167,7 @@ namespace Server
 
                             Console.WriteLine($"[SERVER] Datagram primljen od {remoteEndPoint}: {poruka}");
 
-                            // Proveri da li je ovo inicijalna poruka sa informacijama o algoritmu
+                            // Proverava da li je ovo inicijalna poruka sa informacijama o algoritmu
                             if (poruka.StartsWith("INIT|"))
                             {
                                 string[] delovi = poruka.Substring(5).Split('|');
