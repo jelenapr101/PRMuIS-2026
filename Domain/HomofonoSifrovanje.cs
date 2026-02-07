@@ -73,7 +73,7 @@ namespace Domain
                 brojevi.Add(b1);
                 brojUSlovo[b1] = slovo;
 
-                // Samoglasnici dobijaju jos jedan broj
+                // Samoglasnici dobijaju jos jedan broj jer se najcesce ponavljaju
                 if (samoglasnici.Contains(slovo))
                 {
                     int b2 = slobodniBrojevi[0];
