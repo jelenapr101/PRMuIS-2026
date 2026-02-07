@@ -32,6 +32,7 @@ namespace Domain
         {
         }
 
+        // produzava kljuc (duzina rijeci koja se sifruje)
         private string NapraviProduzeniKljuc(int duzina)
         {
             StringBuilder produzeni = new StringBuilder();
@@ -47,7 +48,7 @@ namespace Domain
             if (string.IsNullOrEmpty(poruka) || string.IsNullOrEmpty(kljuc))
                 return "";
 
-            string tekst = poruka.ToUpper();
+            string tekst = poruka.ToUpper(); // podrazumijevano velika slova
             StringBuilder rezultat = new StringBuilder();
             int kljucIndex = 0;
 
