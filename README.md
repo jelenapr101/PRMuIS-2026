@@ -40,9 +40,9 @@ koristi iste parametre za dešifrovanje i slanje odgovora.
 
 ## Mrežni protokoli
 
-- **TCP**
+- **TCP** - pouzdan, konekcijski orijentisan, garantuje redoslijed i isporuku, koristi se za request/response komunikaciju 
 
-- **UDP**
+- **UDP** - nepouzdan, bez konekcije,brzi , poruke se salju kao datagrami, odgovor je opcionalan 
 
 ## Napomena
 
