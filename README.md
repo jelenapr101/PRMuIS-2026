@@ -38,14 +38,20 @@ koristi iste parametre za dešifrovanje i slanje odgovora.
 - **Server** – serverska aplikacija  
 - **Domain** – zajedničke klase i implementacije algoritama
 
+## Mrežni protokoli
+
+- **TCP**
+
+- **UDP**
+
 ## Napomena
 
 Projekat se razvija postepeno, u skladu sa zadatim specifikacijama i fazama
 implementacije.
 
 
+## Autori:
 
-
-Višnja Maksimović PR 107/2021
+- **Višnja Maksimović PR 107/2021**
       
-Jelena Cvjetinović PR 101/2021
+- **Jelena Cvjetinović PR 101/2021**
